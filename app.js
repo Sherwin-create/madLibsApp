@@ -9,3 +9,4 @@ let originalStory = `today, every student has a computer small enough to fit int
 
 // console.log(originalStory);
 
+let numberOfQuestions = userInputs.length();
