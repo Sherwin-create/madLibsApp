@@ -9,4 +9,17 @@ let originalStory = `today, every student has a computer small enough to fit int
 
 // console.log(originalStory);
 
-let numberOfQuestions = userInputs.length();
+const questionArray = ['enter a noun',
+                    'enter a pural noun',
+                    'enter a verb(present tense)',
+                    'enter a verb(present tense)',
+                    'enter a part of a body',
+                    'enter a adjective',
+                    'enter a plural noun',
+                    'enter a adjective'];
+
+for(let i = 0; i<=questionArray.length-1; i++) {
+    userInputs.push(prompt(questionArray[i]));
+}
+document.write(originalStory);
+// console.log(originalStory);
